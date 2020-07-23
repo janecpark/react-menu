@@ -22,10 +22,7 @@ function Menu({ items,type }) {
           <CardTitle className="font-weight-bold text-center">
             {type} Menu
           </CardTitle>
-          <CardText>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </CardText>
+        
     
           <ListGroup>
             {items.map(item => (
